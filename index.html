@@ -1,0 +1,244 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="author" content="Nickollas Carvalho">
+    <link rel="stylesheet" type="text/css" href="pombo.css">
+    <script src="jquery-1.11.1.min.js"></script>
+    <script src="functions.js"></script>
+  </head>
+<body>
+
+<script>
+if ( document.referrer == 'http://www.insertYourURLHere.com.br/machos/' ) {
+
+  $(function () {
+    $("#select_machos_femeas").val('Macho').trigger("change");
+    $("#select_machos_femeas").remove();
+  });
+
+} else if ( document.referrer == 'http://www.insertYourURLHere.com.br/femeas/' ) {
+
+  $(function () {
+    $("#select_machos_femeas").val('Femea').trigger("change");
+    $("#select_machos_femeas").remove();
+  });
+}
+</script>
+
+<div id="div_menu">
+
+  <div id="div_inside_menu">
+
+    <center>
+    <select id="select_machos_femeas" name="select_machos_femeas">
+      <option value="#">Selecione</option>
+      <option value="Macho">Machos</option>
+      <option value="Femea">F&ecirc;meas</option>
+    </select>
+    </center>
+
+    <div id="div_nomes_machos_femeas" id="div_nomes_machos_femeas">
+    </div>
+
+  </div>
+
+</div>
+
+<div id="div_curio">
+<table id="tabela_curio">
+  <tr>
+    <td id="celula_curio" title="curi&oacute;"><p id="curio">curi&oacute;</p></td>
+  </tr>
+</table>
+</div>
+
+<div id="div_pais">
+<table id="tabela_pai">
+  <tr>
+    <td id="celula_pai" title="pai"><p id="pai">pai</p></td>
+  </tr>
+</table>
+
+<table id="tabela_mae">
+  <tr>
+    <td id="celula_mae" title="m&atilde;e"><p id="mae">m&atilde;e</p></td>
+  </tr>
+</table>
+</div>
+
+<div id="div_avos">
+<table id="tabela_avoo_pai">
+  <tr>
+    <td id="celula_avoo_pai" title="av&ocirc; pai"><p id="avoo_pai">av&ocirc; pai</p></td>
+  </tr>
+</table>
+
+<table id="tabela_avoh_pai">
+  <tr>
+    <td id="celula_avoh_pai" title="av&oacute; pai"><p id="avoh_pai">av&oacute; pai</p></td>
+  </tr>
+</table>
+
+<table id="tabela_avoo_mae">
+  <tr>
+    <td id="celula_avoo_mae" title="av&ocirc; m&atilde;e"><p id="avoo_mae">av&ocirc; m&atilde;e</p></td>
+  </tr>
+</table>
+
+<table id="tabela_avoh_mae">
+  <tr>
+    <td id="celula_avoh_mae" title="av&oacute; m&atilde;e"><p id="avoh_mae">av&oacute; m&atilde;e</p></td>
+  </tr>
+</table>
+</div>
+
+<div id="div_bisavos">
+<table id="tabela_bisavoo_pai_1">
+  <tr>
+    <td id="celula_bisavoo_pai_1" title="bisav&ocirc; pai 1"><p id="bisavoo_pai_1">bisav&ocirc; pai 1</p></td>
+  </tr>
+</table>
+
+<table id="tabela_bisavoh_pai_1">
+  <tr>
+    <td id="celula_bisavoh_pai_1" title="bisav&oacute; pai 1"><p id="bisavoh_pai_1">bisav&oacute; pai 1</p></td>
+  </tr>
+</table>
+
+<table id="tabela_bisavoo_pai_2">
+  <tr>
+    <td id="celula_bisavoo_pai_2" title="bisav&ocirc; pai 2"><p id="bisavoo_pai_2">bisav&ocirc; pai 2</p></td>
+  </tr>
+</table>
+
+<table id="tabela_bisavoh_pai_2">
+  <tr>
+    <td id="celula_bisavoh_pai_2" title="bisav&oacute; pai 2"><p id="bisavoh_pai_2">bisav&oacute; pai 2</p></td>
+  </tr>
+</table>
+
+<table id="tabela_bisavoo_mae_1">
+  <tr>
+    <td id="celula_bisavoo_mae_1" title="bisav&ocirc; m&atilde;e 1"><p id="bisavoo_mae_1">bisav&ocirc; m&atilde;e 1</p></td>
+  </tr>
+</table>
+
+<table id="tabela_bisavoh_mae_1">
+  <tr>
+    <td id="celula_bisavoh_mae_1" title="bisav&oacute; m&atilde;e 1"><p id="bisavoh_mae_1">bisav&oacute; m&atilde;e 1</p></td>
+  </tr>
+</table>
+
+<table id="tabela_bisavoo_mae_2">
+  <tr>
+    <td id="celula_bisavoo_mae_2" title="bisav&ocirc; m&atilde;e 2"><p id="bisavoo_mae_2">bisav&ocirc; m&atilde;e 2</p></td>
+  </tr>
+</table>
+
+<table id="tabela_bisavoh_mae_2">
+  <tr>
+    <td id="celula_bisavoh_mae_2" title="bisav&oacute; m&atilde;e 2"><p id="bisavoh_mae_2">bisav&oacute; m&atilde;e 2</p></td>
+  </tr>
+</table>
+</div>
+
+<div id="div_tataravos">
+<table id="tabela_tataravoo_pai_1_1">
+  <tr>
+    <td id="celula_tataravo_pai_1_1" title="tatarav&ocirc; pai 1 1"><p id="tataravo_pai_1_1">tatarav&ocirc; pai11</p></td>
+  </tr>
+</table>
+
+<table id="tabela_tataravoh_pai_1_1">
+  <tr>
+    <td id="celula_tataravoh_pai_1_1" title="tatarav&oacute; pai 1 1"><p id="tataravoh_pai_1_1">tatarav&oacute; pai11</p></td>
+  </tr>
+</table>
+
+<table id="tabela_tataravoo_pai_1_2">
+  <tr>
+    <td id="celula_tataravo_pai_1_2" title="tatarav&ocirc; pai 1 2"><p id="tataravo_pai_1_2">tatarav&ocirc; pai12</p></td>
+  </tr>
+</table>
+
+<table id="tabela_tataravoh_pai_1_2">
+  <tr>
+    <td id="celula_tataravoh_pai_1_2" title="tatarav&oacute; pai 1 2"><p id="tataravoh_pai_1_2">tatarav&oacute; pai12</p></td>
+  </tr>
+</table>
+
+<table id="tabela_tataravoo_pai_2_1">
+  <tr>
+    <td id="celula_tataravo_pai_2_1" title="tatarav&ocirc; pai 2 1"><p id="tataravo_pai_2_1">tatarav&ocirc; pai21</p></td>
+  </tr>
+</table>
+
+<table id="tabela_tataravoh_pai_2_1">
+  <tr>
+    <td id="celula_tataravoh_pai_2_1" title="tatarav&oacute; pai 2 1"><p id="tataravoh_pai_2_1">tatarav&oacute; pai21</p></td>
+  </tr>
+</table>
+
+<table id="tabela_tataravoo_pai_2_2">
+  <tr>
+    <td id="celula_tataravo_pai_2_2" title="tatarav&ocirc; pai 2 2"><p id="tataravo_pai_2_2">tatarav&ocirc; pai22</p></td>
+  </tr>
+</table>
+
+<table id="tabela_tataravoh_pai_2_2">
+  <tr>
+    <td id="celula_tataravoh_pai_2_2" title="tatarav&oacute; pai 2 2"><p id="tataravoh_pai_2_2">tatarav&oacute; pai22</p></td>
+  </tr>
+</table>
+
+<table id="tabela_tataravoo_mae_1_1">
+  <tr>
+    <td id="celula_tataravo_mae_1_1" title="tatarav&ocirc; m&atilde;e 1 1"><p id="tataravo_mae_1_1">tatarav&ocirc; m&atilde;e11</p></td>
+  </tr>
+</table>
+
+<table id="tabela_tataravoh_mae_1_1">
+  <tr>
+    <td id="celula_tataravoh_mae_1_1" title="tatarav&oacute; m&atilde;e 1 1"><p id="tataravoh_mae_1_1">tatarav&oacute; m&atilde;e11</p></td>
+  </tr>
+</table>
+
+<table id="tabela_tataravoo_mae_1_2">
+  <tr>
+    <td id="celula_tataravo_mae_1_2" title="tatarav&ocirc; m&atilde;e 1 2"><p id="tataravo_mae_1_2">tatarav&ocirc; m&atilde;e12</p></td>
+  </tr>
+</table>
+
+<table id="tabela_tataravoh_mae_1_2">
+  <tr>
+    <td id="celula_tataravoh_mae_1_2" title="tatarav&oacute; m&atilde;e 1 2"><p id="tataravoh_mae_1_2">tatarav&oacute; m&atilde;e12</p></td>
+  </tr>
+</table>
+
+<table id="tabela_tataravoo_mae_2_1">
+  <tr>
+    <td id="celula_tataravo_mae_2_1" title="tatarav&ocirc; m&atilde;e 2 1"><p id="tataravo_mae_2_1">tatarav&ocirc; m&atilde;e21</p></td>
+  </tr>
+</table>
+
+<table id="tabela_tataravoh_mae_2_1">
+  <tr>
+    <td id="celula_tataravoh_mae_2_1" title="tatarav&oacute; m&atilde;e 2 1"><p id="tataravoh_mae_2_1">tatarav&oacute; m&atilde;e21</p></td>
+  </tr>
+</table>
+
+<table id="tabela_tataravoo_mae_2_2">
+  <tr>
+    <td id="celula_tataravo_mae_2_2" title="tatarav&ocirc; m&atilde;e 2 2"><p id="tataravo_mae_2_2">tatarav&ocirc; m&atilde;e22</p></td>
+  </tr>
+</table>
+
+<table id="tabela_tataravoh_mae_2_2">
+  <tr>
+    <td id="celula_tataravoh_mae_2_2" title="tatarav&oacute; m&atilde;e 2 2"><p id="tataravoh_mae_2_2">tatarav&oacute; m&atilde;e22</p></td>
+  </tr>
+</table>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+body { background-color: #F5DDB6; }
+table { width: 142px; }
+td { padding-top: 3px; padding-bottom: 3px; text-align: center; background-color: white; }
+p { visibility: hidden; }
+
+#div_menu { width: 17%; float: left; height: 100%; }
+#div_inside_menu { border-right: 1px dotted black; height: 95%; }
+#div_curio { width: 100px; float: left; }
+#div_pais { width: 137px; float: left; }
+#div_avos { width: 137px; float: left; }
+#div_bisavos { width: 142px; float: left; }
+#div_tataravos { width: 142px; float: left; }
+
+#tabela_curio { margin-top: 270px; margin-left: 10px; }
+
+#tabela_pai { margin-top: 122px; }
+#tabela_mae { margin-top: 263px; }
+
+#tabela_avoo_pai { margin-top: 49px; }
+#tabela_avoh_pai { margin-top: 117px; }
+#tabela_avoo_mae { margin-top: 115px; }
+#tabela_avoh_mae { margin-top: 115px; }
+
+#tabela_bisavoo_pai_1 { margin-top: 17px; }
+#tabela_bisavoh_pai_1 { margin-top: 32px; }
+#tabela_bisavoo_pai_2 { margin-top: 52px; }
+#tabela_bisavoh_pai_2 { margin-top: 32px; }
+#tabela_bisavoo_mae_1 { margin-top: 52px; }
+#tabela_bisavoh_mae_1 { margin-top: 32px; }
+#tabela_bisavoo_mae_2 { margin-top: 50px; }
+#tabela_bisavoh_mae_2 { margin-top: 33px; }
+
+#tabela_tataravoo_pai_1_1 { margin-top: 0px; }
+#tabela_tataravoh_pai_1_1 { margin-top: 0px; }
+#tabela_tataravoo_pai_1_2 { margin-top: 0px; }
+#tabela_tataravoh_pai_1_2 { margin-top: 0px; }
+#tabela_tataravoo_pai_2_1 { margin-top: 20px; }
+#tabela_tataravoh_pai_2_1 { margin-top: 0px; }
+#tabela_tataravoo_pai_2_2 { margin-top: 0px; }
+#tabela_tataravoh_pai_2_2 { margin-top: 0px; }
+#tabela_tataravoo_mae_1_1 { margin-top: 20px; }
+#tabela_tataravoh_mae_1_1 { margin-top: 0px; }
+#tabela_tataravoo_mae_1_2 { margin-top: 0px; }
+#tabela_tataravoh_mae_1_2 { margin-top: 0px; }
+#tabela_tataravoo_mae_2_1 { margin-top: 20px; }
+#tabela_tataravoh_mae_2_1 { margin-top: 0px; }
+#tabela_tataravoo_mae_2_2 { margin-top: 0px; }
+#tabela_tataravoh_mae_2_2 { margin-top: 0px; }
+
+#celula_curio { border: 2px solid black; border-radius: 10px; }
+#celula_pai { border: 2px solid blue; border-radius: 10px; }
+#celula_mae { border: 2px solid red; border-radius: 10px; }
+#celula_avoo_pai { border: 2px solid blue; border-radius: 10px; }
+#celula_avoh_pai { border: 2px solid red; border-radius: 10px; }
+#celula_avoo_mae { border: 2px solid blue; border-radius: 10px; }
+#celula_avoh_mae { border: 2px solid red; border-radius: 10px; }
+#celula_bisavoo_pai_1 { border: 2px solid blue; border-radius: 10px; }
+#celula_bisavoh_pai_1 { border: 2px solid red; border-radius: 10px; }
+#celula_bisavoo_pai_2 { border: 2px solid blue; border-radius: 10px; }
+#celula_bisavoh_pai_2 { border: 2px solid red; border-radius: 10px; }
+#celula_bisavoo_mae_1 { border: 2px solid blue; border-radius: 10px; }
+#celula_bisavoh_mae_1 { border: 2px solid red; border-radius: 10px; }
+#celula_bisavoo_mae_2 { border: 2px solid blue; border-radius: 10px; }
+#celula_bisavoh_mae_2 { border: 2px solid red; border-radius: 10px; }
+#celula_tataravo_pai_1_1 { border: 2px solid blue; border-radius: 10px; }
+#celula_tataravoh_pai_1_1 { border: 2px solid red; border-radius: 10px; }
+#celula_tataravo_pai_1_2 { border: 2px solid blue; border-radius: 10px; }
+#celula_tataravoh_pai_1_2 { border: 2px solid red; border-radius: 10px; }
+#celula_tataravo_pai_2_1 { border: 2px solid blue; border-radius: 10px; }
+#celula_tataravoh_pai_2_1 { border: 2px solid red; border-radius: 10px; }
+#celula_tataravo_pai_2_2 { border: 2px solid blue; border-radius: 10px; }
+#celula_tataravoh_pai_2_2 { border: 2px solid red; border-radius: 10px; }
+#celula_tataravo_mae_1_1 { border: 2px solid blue; border-radius: 10px; }
+#celula_tataravoh_mae_1_1 { border: 2px solid red; border-radius: 10px; }
+#celula_tataravo_mae_1_2 { border: 2px solid blue; border-radius: 10px; }
+#celula_tataravoh_mae_1_2 { border: 2px solid red; border-radius: 10px; }
+#celula_tataravo_mae_2_1 { border: 2px solid blue; border-radius: 10px; }
+#celula_tataravoh_mae_2_1 { border: 2px solid red; border-radius: 10px; }
+#celula_tataravo_mae_2_2 { border: 2px solid blue; border-radius: 10px; }
+#celula_tataravoh_mae_2_2 { border: 2px solid red; border-radius: 10px; }
